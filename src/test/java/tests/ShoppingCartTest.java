@@ -72,9 +72,9 @@ public class ShoppingCartTest {
 		
 
 
-		//Print the first product name before sorting
+		//Print the first product name after sorting
 		String firstProductAfter = driver.findElement(By.className("inventory_item_name")).getText();
-		System.out.println("First Product Before Sorting: "+firstProductAfter);
+		System.out.println("First Product After Sorting: "+firstProductAfter);
 		
 
 
