@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-27T19:00:19 IST" name="Suite" finished-at="2025-02-27T19:00:42 IST" duration-ms="23095">
+    <groups>
+    </groups>
+    <test started-at="2025-02-27T19:00:19 IST" name="Test" finished-at="2025-02-27T19:00:42 IST" duration-ms="23095">
+      <class name="tests.ShoppingCartTestNG">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ShoppingCartTestNG@18df8434]" started-at="2025-02-27T19:00:19 IST" name="setup" finished-at="2025-02-27T19:00:33 IST" duration-ms="14361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:tests.ShoppingCartTestNG@18df8434]" started-at="2025-02-27T19:00:33 IST" name="login" finished-at="2025-02-27T19:00:34 IST" duration-ms="1045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addTocart()[pri:0, instance:tests.ShoppingCartTestNG@18df8434]" started-at="2025-02-27T19:00:34 IST" name="addTocart" finished-at="2025-02-27T19:00:35 IST" depends-on-methods="tests.ShoppingCartTestNG.login" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTocart -->
+        <test-method signature="sortProductsByPrice()[pri:0, instance:tests.ShoppingCartTestNG@18df8434]" started-at="2025-02-27T19:00:35 IST" name="sortProductsByPrice" finished-at="2025-02-27T19:00:36 IST" depends-on-methods="tests.ShoppingCartTestNG.login" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortProductsByPrice -->
+        <test-method signature="verifyCartPage()[pri:0, instance:tests.ShoppingCartTestNG@18df8434]" started-at="2025-02-27T19:00:36 IST" name="verifyCartPage" finished-at="2025-02-27T19:00:36 IST" depends-on-methods="tests.ShoppingCartTestNG.addTocart" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartPage -->
+        <test-method signature="removeProductFromCart()[pri:0, instance:tests.ShoppingCartTestNG@18df8434]" started-at="2025-02-27T19:00:36 IST" name="removeProductFromCart" finished-at="2025-02-27T19:00:37 IST" depends-on-methods="tests.ShoppingCartTestNG.verifyCartPage" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCart -->
+        <test-method signature="checkout()[pri:0, instance:tests.ShoppingCartTestNG@18df8434]" started-at="2025-02-27T19:00:37 IST" name="checkout" finished-at="2025-02-27T19:00:37 IST" depends-on-methods="tests.ShoppingCartTestNG.removeProductFromCart" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method signature="placeOrder()[pri:0, instance:tests.ShoppingCartTestNG@18df8434]" started-at="2025-02-27T19:00:37 IST" name="placeOrder" finished-at="2025-02-27T19:00:38 IST" depends-on-methods="tests.ShoppingCartTestNG.checkout" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method signature="returnToHomePageAndLogout()[pri:0, instance:tests.ShoppingCartTestNG@18df8434]" started-at="2025-02-27T19:00:38 IST" name="returnToHomePageAndLogout" finished-at="2025-02-27T19:00:41 IST" depends-on-methods="tests.ShoppingCartTestNG.placeOrder" duration-ms="2872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnToHomePageAndLogout -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:tests.ShoppingCartTestNG@18df8434]" started-at="2025-02-27T19:00:41 IST" name="quit" finished-at="2025-02-27T19:00:42 IST" duration-ms="1454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.ShoppingCartTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
